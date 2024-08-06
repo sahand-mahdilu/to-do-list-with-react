@@ -13,11 +13,11 @@
 }
 
 body {
-  background: rgb(68, 100, 173);
+  background: rgb(136, 164, 46);
   background: linear-gradient(
     100deg,
-    rgba(68, 100, 173, 1),
-    rgba(74, 21, 110, 1)
+    rgb(196, 197, 182),
+    rgb(31, 180, 214)
   );
   color: white;
   min-height: 100vh;
@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  text-shadow: 2px 2px 15px rgb(176, 230, 255);
+  text-shadow: 2px 2px 15px rgb(31, 154, 211);
   font-size: 1.2rem;
 }
 
@@ -48,14 +48,14 @@ form button {
 
 form button {
   padding: 0.5rem 1rem;
-  color: rgba(74, 21, 110, 1);
+  color: rgb(193, 186, 199);
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 form button:hover {
-  background: rgba(74, 21, 110, 1);
+  background: rgb(140, 215, 79);
   color: white;
 }
 
@@ -91,7 +91,7 @@ form input,
 
 .trash-btn,
 .check-btn {
-  background-color: rgba(74, 21, 110, 1);
+  background-color: rgb(148, 165, 169);
   color: white;
   border: none;
   padding: 1rem;
@@ -101,17 +101,17 @@ form input,
 }
 
 .check-btn {
-  background-color: rgba(68, 100, 173, 1);
+  background-color: rgb(155, 209, 218);
 }
 
 .check-btn:hover {
-  background-color: rgba(68, 100, 173, 1);
+  background-color: rgb(199, 206, 224);
   color: white;
 }
 
 .trash-btn:hover {
   color: white;
-  background-color: rgba(74, 21, 110, 1);
+  background-color: rgb(70, 108, 189);
 }
 
 .todo-item {
@@ -146,7 +146,7 @@ select {
   outline: none;
   border: none;
   font-size: 1.2em;
-  color: rgba(74, 21, 110, 1);
+  color: rgb(85, 49, 109);
   width: 15rem;
   cursor: pointer;
   padding: 1rem;
@@ -161,7 +161,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: rgba(74, 21, 110, 1);
+  background: rgb(63, 245, 227);
   top: 0;
   right: 0;
   padding: 1.2rem;
